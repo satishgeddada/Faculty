@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Portal Login</description>
+   <name>Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0a0142a-0bc9-4f40-b2b0-69a4b7f8718c</testCaseGuid>
+</TestCaseEntity>

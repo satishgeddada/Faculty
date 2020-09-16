@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login Page</description>
+   <name>Login-Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>abd140a4-d0b9-44e7-8f12-efcd0f2ddfa2</testCaseGuid>
+</TestCaseEntity>
