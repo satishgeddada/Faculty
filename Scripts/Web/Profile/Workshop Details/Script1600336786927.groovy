@@ -25,27 +25,25 @@ WebUI.setText(findTestObject('Web/Login/input_Faculty Login_username'), 'DEMO051
 
 WebUI.setEncryptedText(findTestObject('Web/Login/input_Faculty Login_password'), 'Sp03FKARx74=')
 
-WebUI.click(findTestObject('Page_/button_Login'))
+WebUI.click(findTestObject('Web/Login/button_Login'))
 
-WebUI.click(findTestObject('Web/Profile/Contact Details/a_Profile'))
+WebUI.click(findTestObject('Web/Profile/Workshop Details/a_Profile'))
 
-WebUI.click(findTestObject('Web/Profile/Contact Details/button_Contact Details'))
+WebUI.click(findTestObject('Object Repository/span_ MORE'))
 
-WebUI.takeScreenshot()
+WebUI.click(findTestObject('Web/Profile/Workshop Details/button_Workshop Details'))
 
-WebUI.click(findTestObject('Web/Profile/Contact Details/button_Change Profile Information'))
+WebUI.click(findTestObject('Web/Profile/Workshop Details/button_ADD'))
 
-WebUI.setText(findTestObject('Web/Profile/Contact Details/input_Update Contact Details_Mobile No'), '5555555566')
+WebUI.setText(findTestObject('Web/Profile/Workshop Details/input_Organized By_orgnizedBy'), 'JNTU')
 
-WebUI.setText(findTestObject('Web/Profile/Contact Details/input_Update Contact Details_email'), 'srinugrbtn@gmail.com')
+WebUI.setText(findTestObject('Web/Profile/Workshop Details/input_Duration_duration'), '1 Day')
 
-WebUI.setText(findTestObject('Web/Profile/Contact Details/textarea_Update Contact Details_Address'), 'Hyderabad')
+WebUI.setText(findTestObject('Web/Profile/Workshop Details/input_Workshop Month  Year_monYear'), '01/01/2020')
 
-WebUI.click(findTestObject('Page_/button_Update'))
+WebUI.setText(findTestObject('Web/Profile/Workshop Details/input_Place_place'), 'Hyderabad')
 
-WebUI.click(findTestObject('Web/Profile/Contact Details/button_Contact Details'))
-
-WebUI.takeScreenshot()
+WebUI.click(findTestObject('Web/Profile/Workshop Details/button_Save Workshop'))
 
 WebUI.closeBrowser()
 

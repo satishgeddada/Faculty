@@ -27,25 +27,23 @@ WebUI.setEncryptedText(findTestObject('Web/Login/input_Faculty Login_password'),
 
 WebUI.click(findTestObject('Page_/button_Login'))
 
-WebUI.click(findTestObject('Web/Profile/Contact Details/a_Profile'))
+WebUI.click(findTestObject('Web/Profile/Personal Details/a_Profile'))
 
-WebUI.click(findTestObject('Web/Profile/Contact Details/button_Contact Details'))
+WebUI.click(findTestObject('Web/Profile/Qualification Details/button_Qualification Details'))
 
-WebUI.takeScreenshot()
+WebUI.click(findTestObject('Web/Profile/Qualification Details/button_ADD QUALIFICATION'))
 
-WebUI.click(findTestObject('Web/Profile/Contact Details/button_Change Profile Information'))
+WebUI.selectOptionByValue(findTestObject('Web/Profile/Qualification Details/select_Select Qualification Phd'), 'Phd', true)
 
-WebUI.setText(findTestObject('Web/Profile/Contact Details/input_Update Contact Details_Mobile No'), '5555555566')
+WebUI.setText(findTestObject('Web/Profile/Qualification Details/input_Add Qualification_Name of The College'), 'JNTU Hyderabad')
 
-WebUI.setText(findTestObject('Web/Profile/Contact Details/input_Update Contact Details_email'), 'srinugrbtn@gmail.com')
+WebUI.setText(findTestObject('Web/Profile/Qualification Details/input_Add Qualification_Branch Name'), 'Artificial Intelligence')
 
-WebUI.setText(findTestObject('Web/Profile/Contact Details/textarea_Update Contact Details_Address'), 'Hyderabad')
+WebUI.setText(findTestObject('Web/Profile/Qualification Details/input_Add Qualification_Year of Completion'), '2005')
 
-WebUI.click(findTestObject('Page_/button_Update'))
+WebUI.click(findTestObject('Web/Profile/Qualification Details/button_Save Qualification'))
 
-WebUI.click(findTestObject('Web/Profile/Contact Details/button_Contact Details'))
-
-WebUI.takeScreenshot()
+WebUI.click(findTestObject('Web/Profile/Qualification Details/button_Qualification Details'))
 
 WebUI.closeBrowser()
 

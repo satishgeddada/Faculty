@@ -25,27 +25,30 @@ WebUI.setText(findTestObject('Web/Login/input_Faculty Login_username'), 'DEMO051
 
 WebUI.setEncryptedText(findTestObject('Web/Login/input_Faculty Login_password'), 'Sp03FKARx74=')
 
-WebUI.click(findTestObject('Page_/button_Login'))
+WebUI.click(findTestObject('Web/Login/button_Login'))
 
-WebUI.click(findTestObject('Web/Profile/Contact Details/a_Profile'))
+WebUI.click(findTestObject('Object Repository/Web/Profile/Work Experience/a_Profile'))
 
-WebUI.click(findTestObject('Web/Profile/Contact Details/button_Contact Details'))
+WebUI.click(findTestObject('Object Repository/Web/Profile/Work Experience/button_Work Experience'))
 
-WebUI.takeScreenshot()
+WebUI.click(findTestObject('Object Repository/Web/Profile/Work Experience/button_ADD EXPERIENCE'))
 
-WebUI.click(findTestObject('Web/Profile/Contact Details/button_Change Profile Information'))
+WebUI.setText(findTestObject('Object Repository/Web/Profile/Work Experience/input_Add Designation_Name of The College'), 
+    'JNTU Hyderabad')
 
-WebUI.setText(findTestObject('Web/Profile/Contact Details/input_Update Contact Details_Mobile No'), '5555555566')
+WebUI.selectOptionByValue(findTestObject('Object Repository/Web/Profile/Work Experience/select_Select Designation Phd'), 
+    'Phd', true)
 
-WebUI.setText(findTestObject('Web/Profile/Contact Details/input_Update Contact Details_email'), 'srinugrbtn@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Web/Profile/Work Experience/input_Add Designation_Roles  Responsibilities'), 
+    'Professor')
 
-WebUI.setText(findTestObject('Web/Profile/Contact Details/textarea_Update Contact Details_Address'), 'Hyderabad')
+WebUI.setText(findTestObject('Web/Profile/Work Experience/input_Add Designation_from'), '01/01/2018')
 
-WebUI.click(findTestObject('Page_/button_Update'))
+WebUI.setText(findTestObject('Web/Profile/Work Experience/input_Add Designation_to'), '31/12/2019')
 
-WebUI.click(findTestObject('Web/Profile/Contact Details/button_Contact Details'))
+WebUI.click(findTestObject('Object Repository/Web/Profile/Work Experience/button_Save Designation'))
 
-WebUI.takeScreenshot()
+WebUI.click(findTestObject('Object Repository/Web/Profile/Work Experience/button_Work Experience'))
 
 WebUI.closeBrowser()
 
