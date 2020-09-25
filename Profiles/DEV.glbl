@@ -6,7 +6,12 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description>Base URL</description>
-      <initValue>'http://15.206.245.247:8081/'</initValue>
+      <initValue>'http://13.233.103.20:8081/'</initValue>
       <name>URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Web URL</description>
+      <initValue>'http://13.233.103.20:8081/faculty/'</initValue>
+      <name>Web</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

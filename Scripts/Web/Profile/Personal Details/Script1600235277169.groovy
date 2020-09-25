@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://oecfrontend.vercel.app/')
+WebUI.navigateToUrl(GlobalVariable.Web)
 
 WebUI.setText(findTestObject('Web/Login/input_Faculty Login_username'), 'DEMO051020')
 
-WebUI.setEncryptedText(findTestObject('Web/Login/input_Faculty Login_password'), 'Sp03FKARx74=')
+WebUI.setEncryptedText(findTestObject('Web/Login/input_Faculty Login_password'), '8wrFRVevT6nANR47r2EKIw==')
 
 WebUI.click(findTestObject('Object Repository/Page_/button_Login'))
 
