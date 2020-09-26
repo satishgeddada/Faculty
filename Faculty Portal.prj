@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description></description>
-   <name>Faculty Portal</name>
+   <name>Faculty_Portal</name>
    <tag></tag>
    <UUID>d0c1b7cc-af6f-416c-9491-96ae740694af</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\PVs\Katalon Studio\Faculty Portal\Faculty Portal.prj</projectFileLocation>
+   <projectFileLocation>C:\Users\PVs\Katalon Studio\Faculty_Portal\Faculty Portal.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
